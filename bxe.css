@@ -20,7 +20,7 @@ body {
     color: #fa6006;
   }
   
-  /* .unit-blocks {
+  .unit-blocks {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
@@ -33,7 +33,7 @@ body {
     padding: 20px;
     text-align: center;
     transition: transform 0.3s ease;
-  } */
+  }
   
   .unit-block:hover {
     transform: scale(1.05);
