@@ -84,14 +84,12 @@
 
   <script src="script.js"></script>
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var menuToggle = document.getElementById('toggle-menu');
-      var navLinks = document.querySelector('.nav-links');
-  
-      menuToggle.addEventListener('click', function() {
-        navLinks.classList.toggle('active');
+    $(document).ready(function() {
+      $('.menu-toggle').click(function() {
+        $('.nav-links').toggleClass('active');
       });
     });
   </script>
+  
 </body>
 </html>
