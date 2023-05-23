@@ -148,7 +148,7 @@ footer {
     padding: 5px;
   }
 
-  #navbar-toggle:checked ~ .nav-links {
+  .menu-toggle:checked ~ .nav-links {
     display: flex;
   }
 }
@@ -171,12 +171,14 @@ footer {
   margin-right: 5px;
 }
 
+/* Position the menu toggle on the top right corner */
 .menu-toggle {
   position: absolute;
   top: 20px;
   right: 20px;
 }
 
+/* Media query for smaller screens */
 @media (max-width: 600px) {
   .menu-toggle {
     display: block;
