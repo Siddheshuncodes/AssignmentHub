@@ -8,36 +8,44 @@
 </head>
 <body>
   <div class="wrapper">
-    <nav>
-      <div class="logo">
-        <a href="#"><img src="assignmenthub.png" alt="Your Logo"></a>
+  <nav class="navbar">
+  <div class="logo">
+    <a href="#"><img src="assignmenthub.png" alt="Your Logo"></a>
+  </div>
+  
+  <input type="checkbox" id="navbar-toggle">
+  <label for="navbar-toggle" class="navbar-toggle-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+  
+  <ul class="nav-links">
+    <li><a href="#">Home</a></li>
+    <li class="dropdown">
+      <a href="#">Assignments &#9662;</a>
+      <div class="dropdown-content">
+        <a href="#">Physics</a>
+        <a href="#">Maths-2</a>
+        <a href="#">Chemistry</a>
+        <a href="#">BXE</a>
+        <a href="#">Mechanics</a>
       </div>
-      
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li class="dropdown">
-          <a href="#">Assignments &#9662;</a>
-          <div class="dropdown-content">
-            <a href="#">Physics</a>
-            <a href="#">Maths-2</a>
-            <a href="#">Chemistry</a>
-            <a href="#">BXE</a>
-            <a href="#">Mechanics</a>
-          </div>
-        </li>
-        <li class="dropdown">
-          <a href="#">Resources &#9662;</a>
-          <div class="dropdown-content">
-            <a href="#">Mentor</a>
-            <a href="#">Toppers Advice</a>
-            <a href="#">Books</a>
-            <a href="#">Scholarships</a>
-          </div>
-        </li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
+    </li>
+    <li class="dropdown">
+      <a href="#">Resources &#9662;</a>
+      <div class="dropdown-content">
+        <a href="#">Mentor</a>
+        <a href="#">Toppers Advice</a>
+        <a href="#">Books</a>
+        <a href="#">Scholarships</a>
+      </div>
+    </li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
     
     <header>
       <h1>Welcome to AssignmentHub!</h1>
@@ -70,7 +78,7 @@
     </div>
     
     <footer>
-      <p>&copy; 2023 🔱3SHUL🔱. All rights reserved.</p>
+      <p>&copy; 2023 Assignmenthub. All rights reserved.</p>
     </footer>
   </div>
 
