@@ -51,6 +51,7 @@
       <p>Your Comprehensive Academic Resource Center</p>
     </header>
 
+    
     <div class="blog-section">
       <h2>Introducing AssignmentHub: Your One-Stop Solution for Academic Success!</h2>
 
@@ -82,5 +83,15 @@
   </div>
 
   <script src="script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var menuToggle = document.getElementById('toggle-menu');
+      var navLinks = document.querySelector('.nav-links');
+  
+      menuToggle.addEventListener('click', function() {
+        navLinks.classList.toggle('active');
+      });
+    });
+  </script>
 </body>
 </html>
