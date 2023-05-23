@@ -1,13 +1,17 @@
-// script.js
+  $(document).ready(function() {
+    $('.navbar-toggle-icon').click(function() {
+      $('.nav-links').slideToggle();
+    });
 
-// Example function to show a message when the user clicks on a navigation link
-function showClickMessage() {
-    alert("You clicked on a navigation link!");
-  }
-  
-  // Add event listeners to the navigation links
-  const navLinks = document.querySelectorAll(".nav-links a");
-  navLinks.forEach((link) => {
-    link.addEventListener("click", showClickMessage);
+    $(document).click(function(e) {
+      var target = e.target;
+      if (!$(target).is('.navbar-toggle-icon, .nav-links, .nav-links *')) {
+        $('.nav-links').slideUp();
+      }
+    });
+
+    $('.dropdown > a').click(function(e) {
+      e.preventDefault();
+      $(this).siblings('.dropdown-content').slideToggle();
+    });
   });
-  
