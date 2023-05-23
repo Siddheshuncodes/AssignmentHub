@@ -82,11 +82,22 @@
     </footer>
   </div>
 
-  <script src="script.js"></script>
   <script>
     $(document).ready(function() {
       $('.menu-toggle').click(function() {
         $('.nav-links').toggleClass('active');
+      });
+  
+      $(document).click(function(e) {
+        var target = e.target;
+        if (!$(target).is('.menu-toggle, .nav-links, .nav-links *')) {
+          $('.nav-links').removeClass('active');
+        }
+      });
+  
+      $('.dropdown > a').click(function(e) {
+        e.preventDefault();
+        $(this).siblings('.dropdown-content').slideToggle();
       });
     });
   </script>
