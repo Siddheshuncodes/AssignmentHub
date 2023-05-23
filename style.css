@@ -197,3 +197,36 @@ footer {
     background-color: #fa6006;
   }
 }
+.menu-toggle {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.menu-icon {
+  width: 30px;
+  height: 3px;
+  background-color: #333333;
+  margin-right: 5px;
+}
+
+/* Position the menu toggle on the top right corner */
+.menu-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .menu-toggle {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .menu-toggle:hover .menu-icon {
+    background-color: #fa6006;
+  }
+}
