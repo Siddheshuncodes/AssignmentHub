@@ -152,3 +152,15 @@ footer {
     display: flex;
   }
 }
+.nav-links {
+  display: none;
+}
+
+.nav-links.show {
+  display: block;
+}
+/* Existing styles */
+
+.nav-links.active {
+  display: block;
+}
