@@ -79,6 +79,8 @@ body {
   .unit-block .unit-topics ul li {
     margin-bottom: 5px;
     color: #666;
+    font-size: 16px;
+    line-height: 1.4;
   }
   
   .unit-block .unit-topics ul li:before {
@@ -87,6 +89,8 @@ body {
     display: inline-block;
     width: 1em;
     margin-left: -1em;
+    font-size: 14px;
+    line-height: 1;
   }
   
   /* Bootstrap Grid Classes */
