@@ -121,33 +121,3 @@ body {
   
   /* Rest of the CSS code remains the same */
       
-  /* Bootstrap Grid Classes */
-  
-  @media (min-width: 576px) {
-    .unit-block {
-      width: 100%;
-      max-width: 540px;
-    }
-  }
-  
-  @media (min-width: 768px) {
-    .unit-block {
-      width: 100%;
-      max-width: 720px;
-    }
-  }
-  
-  @media (min-width: 992px) {
-    .unit-block {
-      width: 100%;
-      max-width: 960px;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    .unit-block {
-      width: 100%;
-      max-width: 1140px;
-    }
-  }
-  
