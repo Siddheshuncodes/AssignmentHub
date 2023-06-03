@@ -6,7 +6,6 @@
   <title>Contributors</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="contributors.css">
-   
 </head>
 <body>
   <div class="container">
@@ -27,55 +26,83 @@
       </div>
     </div>
     <div class="row">
-        <div class="col-md-6">
-          <div class="contributor">
-            <h2>Divyesh Mali</h2>
-            <p>Contributed BXE Assignment</p>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="contributor">
-            <h2>Tanaya Patil</h2>
-            <p>Contributed Chemistry Notes</p>
-          </div>
+      <div class="col-md-6">
+        <div class="contributor">
+          <h2>Divyesh Mali</h2>
+          <p>Contributed BXE Assignment</p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="contributor">
-            <h2>Atharva Rahate</h2>
-            <p>Contributed BEE Assignment</p>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="contributor">
-            <h2>Mehul Pardesi</h2>
-            <p>Contributed Maths Notes</p>
-          </div>
+      <div class="col-md-6">
+        <div class="contributor">
+          <h2>Tanaya Patil</h2>
+          <p>Contributed Chemistry Notes</p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="contributor">
-            <h2>Atharva Rahate</h2>
-            <p>Contributed BEE Assignment</p>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="contributor">
-            <h2>Himanshu Pagar</h2>
-            <p>Contributed Systumm</p>
-          </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="contributor">
+          <h2>Atharva Rahate</h2>
+          <p>Contributed BEE Assignment</p>
         </div>
       </div>
-  
-  
+      <div class="col-md-6">
+        <div class="contributor">
+          <h2>Mehul Pardesi</h2>
+          <p>Contributed Maths Notes</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="contributor">
+          <h2>Atharva Rahate</h2>
+          <p>Contributed BEE Assignment</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="contributor">
+          <h2>Himanshu Pagar</h2>
+          <p>Contributed Systumm</p>
+        </div>
+      </div>
+    </div>
 
     <div class="footer">
-      <p>Thank you to all our contributors for their valuable contributions!</p>
+      <p>"Thank you to our amazing contributors for generously sharing their valuable notes! Your selflessness and dedication will greatly benefit fellow students on their educational journey. Together, we create a community of support and knowledge. Keep inspiring and making a difference!"</p>
+    </div>
+
+    <div class="form-container">
+      <h2>Interested in becoming one of our contributors?</h2>
+      <form id="contributor-form">
+        <label for="subjects">Subjects you are contributing:</label>
+        <select id="subjects" name="subjects" multiple>
+          <option value="subject1">Subject 1</option>
+          <option value="subject2">Subject 2</option>
+          <option value="subject3">Subject 3</option>
+          <option value="subject4">Subject 4</option>
+          <option value="subject5">Subject 5</option>
+          <option value="subject6">Subject 6</option>
+          <option value="subject7">Subject 7</option>
+          <option value="subject8">Subject 8</option>
+          <option value="subject9">Subject 9</option>
+          <option value="subject10">Subject 10</option>
+        </select>
+        <br>
+        <button type="submit">Submit</button>
+      </form>
     </div>
   </div>
 
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    const form = document.getElementById("contributor-form");
+
+    form.addEventListener("submit", function(event) {
+      event.preventDefault();
+      const selectedSubjects = Array.from(form.subjects.selectedOptions).map(option => option.value);
+      console.log(selectedSubjects); // You can perform further actions with the selected subjects
+    });
+  </script>
 </body>
 </html>
