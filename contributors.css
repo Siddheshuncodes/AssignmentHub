@@ -1,0 +1,91 @@
+/* Custom CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .contributor {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contributor h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #777;
+  }
+  
+  /* Color Scheme */
+  :root {
+    --primary-color: #008080; /* Dark teal */
+    --secondary-color: #FFA500; /* Orange */
+    --background-color: #f8f8f8; /* Light gray */
+  }
+  
+  .container {
+    background-color: var(--background-color);
+  }
+  
+  h1 {
+    color: var(--primary-color);
+    font-size: 32px;
+    text-transform: uppercase;
+  }
+  
+  .contributor {
+    border: 2px solid var(--secondary-color);
+    transition: border-color 0.3s ease;
+  }
+  
+  .contributor:hover {
+    border-color: var(--primary-color);
+  }
+  
+  .contributor h2 {
+    color: var(--primary-color);
+  }
+  
+  .footer {
+    color: var(--primary-color);
+    font-size: 14px;
+  }
+  
+  /* Mobile Responsive */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 28px;
+    }
+    
+    .contributor {
+      padding: 15px;
+    }
+    
+    .contributor h2 {
+      font-size: 22px;
+    }
+  }
+  
