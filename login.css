@@ -63,7 +63,7 @@ body {
   /* Responsive Styles */
   @media only screen and (max-width: 600px) {
     .container {
-      max-width: 90%;
+      max-width: 120%;
       padding: 15px;
     }
   
