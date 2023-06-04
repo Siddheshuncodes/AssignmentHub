@@ -1,18 +1,13 @@
 /* Body Styles */
-/* body {
+body {
     font-family: Arial, sans-serif;
     background-color: #F5F5F5;
     background-image: linear-gradient(to bottom right, #FFB347, #FFCC66);
     color: #333333;
     margin: 0;
     padding: 0;
-  } */
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(135deg, #FFA500, #FF5F6D);
   }
+ 
   /* Container Styles */
   .container {
     max-width: 400px;
