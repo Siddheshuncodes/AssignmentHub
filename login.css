@@ -3,11 +3,17 @@ body {
     font-family: Arial, sans-serif;
     background-color: #F5F5F5;
     background-image: linear-gradient(to bottom right, #FFB347, #FFCC66);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #333333;
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
   }
- 
+  
   /* Container Styles */
   .container {
     max-width: 400px;
