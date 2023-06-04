@@ -1,10 +1,7 @@
 /* Body Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #F5F5F5;
-    background-image: linear-gradient(to bottom right, #FFB347, #FFCC66);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient(to bottom right, #2e8bc0, #56c596);
     color: #333333;
     margin: 0;
     padding: 0;
@@ -17,6 +14,7 @@ body {
   /* Container Styles */
   .container {
     max-width: 400px;
+    width: 90%;
     margin: 0 auto;
     padding: 20px;
     background-color: #FFFFFF;
@@ -51,7 +49,7 @@ body {
   
   button[type="submit"] {
     padding: 12px;
-    background-color: #FFB347;
+    background-color: #2e8bc0;
     color: #FFFFFF;
     border: none;
     border-radius: 3px;
@@ -59,13 +57,13 @@ body {
   }
   
   button[type="submit"]:hover {
-    background-color: #FFA133;
+    background-color: #56c596;
   }
   
   /* Responsive Styles */
   @media only screen and (max-width: 600px) {
     .container {
-      max-width: 300px;
+      max-width: 90%;
       padding: 15px;
     }
   

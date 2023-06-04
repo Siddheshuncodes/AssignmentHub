@@ -22,14 +22,16 @@
   </script>
 </head>
 <body>
-  <h1>User Registration</h1>
-  <form id="registration-form">
-    <label for="email">Email:</label>
-    <input type="email" id="email" required><br>
-    <label for="password">Password:</label>
-    <input type="password" id="password" required><br>
-    <button type="submit">Register</button>
-   </form>
+  <div class="container">
+    <h1>User Registration</h1>
+    <form id="registration-form">
+      <label for="email">Email:</label>
+      <input type="email" id="email" required><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" required><br>
+      <button type="submit">Register</button>
+    </form>
+  </div>
 
   <!-- Include the JavaScript snippet -->
   <script>
@@ -49,26 +51,5 @@
         });
     });
   </script>
-  <script>// Import the functions you need from the SDKs you need
-    import { initializeApp } from "firebase/app";
-    import { getAnalytics } from "firebase/analytics";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
-    
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    const firebaseConfig = {
-      apiKey: "AIzaSyDGThRPXD4kEBK2ptsQt-gR3TKogbJpiEc",
-      authDomain: "assignhub-af14b.firebaseapp.com",
-      projectId: "assignhub-af14b",
-      storageBucket: "assignhub-af14b.appspot.com",
-      messagingSenderId: "993617734619",
-      appId: "1:993617734619:web:e322fbe9cfc69d5af795fe",
-      measurementId: "G-7B88HR18XP"
-    };
-    
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);</script>
- </body>
+</body>
 </html>
