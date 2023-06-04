@@ -1,8 +1,11 @@
 /* Body Styles */
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom right, #4b6cb7, #182848);
-    color: #FFFFFF;
+    background-color: #F5F5F5;
+    background-image: linear-gradient(to bottom right, #FFB347, #FFCC66);
+    color: #333333;
+    margin: 0;
+    padding: 0;
   }
   
   /* Container Styles */
@@ -10,7 +13,7 @@ body {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #FFFFFF;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
@@ -36,13 +39,13 @@ body {
   input[type="password"] {
     padding: 10px;
     margin-bottom: 20px;
-    border: none;
+    border: 1px solid #CCCCCC;
     border-radius: 3px;
   }
   
   button[type="submit"] {
     padding: 12px;
-    background-color: #4b6cb7;
+    background-color: #FFB347;
     color: #FFFFFF;
     border: none;
     border-radius: 3px;
@@ -50,7 +53,7 @@ body {
   }
   
   button[type="submit"]:hover {
-    background-color: #182848;
+    background-color: #FFA133;
   }
   
   /* Responsive Styles */
