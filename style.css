@@ -25,12 +25,18 @@ nav {
   background-color: black;
   padding: 10px;
 }
-
 .logo {
   font-size: 24px;
   font-weight: bold;
   color: #fff;
+  width: 100px; /* Adjust the width to your desired size */
+  height: 100px; /* Adjust the height to your desired size */
+  /* Add the following lines to adjust the logo dimensions */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 
 .navbar-toggle-icon {
   display: none;
